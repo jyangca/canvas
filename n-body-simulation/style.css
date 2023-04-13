@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;  
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+  }
+#controls-wrapper {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+}
+#controls-wrapper > select, button {
+  background-color: #CCCED8;
+  color: #333849;
+  border: 1px solid #AAB0BC;
+}
+
+label {
+  color: white;
+}
